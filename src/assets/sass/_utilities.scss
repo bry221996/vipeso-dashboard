@@ -1,0 +1,14 @@
+@import "utilities/general";
+@import "utilities/text";
+@import "utilities/borders";
+@import "utilities/form";
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.313rem 0.719rem rgba(0, 123, 255, .1), 0 0.156rem 0.125rem rgba(0, 0, 0, .06);
+    box-shadow: 0 0.313rem 0.719rem rgba(0, 123, 255, .1), 0 0.156rem 0.125rem rgba(0, 0, 0, .06);
+}
+
+.ui-timepicker-container {
+    z-index: 9999 !important;
+}

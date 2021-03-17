@@ -1,0 +1,33 @@
+.game-reward {
+    &__select {
+        .vs__search::placeholder,
+        .vs__dropdown-toggle,
+        .vs__dropdown-menu,
+        .vs__selected {
+            color: #495057 !important;
+            font-size: .8125rem;
+            font-family: $font-family-poppins;
+            font-weight: 400;
+        }
+        &__large {
+            .vs__dropdown-toggle {
+                font-size: .875rem;
+                padding-top: .675rem;
+                padding-bottom: .675rem;
+            }
+            .vs__dropdown-menu {
+                font-size: .875rem;
+            }
+        }
+    }
+
+    &__banner {
+        .btn {
+            text-align: left !important;
+        }
+        .btn-lg {
+            padding: 0.6875rem 1rem;
+            font-size: 0.875rem;
+        }
+    }
+}

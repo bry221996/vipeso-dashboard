@@ -1,0 +1,16 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+// // Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css');
+@import url('https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css');
+@import url('https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css');
+
+@import "~vue-select/src/scss/vue-select.scss";
+// // Shard UI
+@import "shards-dashboards";
+@import '~izitoast/dist/css/iziToast.min.css';

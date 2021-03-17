@@ -1,0 +1,33 @@
+.invalid-input {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.form-label {
+    margin-bottom: 0.125rem;
+    color: $fiord-blue;
+}
+
+.form-control:focus, .form-control:focus:hover {
+    border-color: $accent-color;
+}
+
+.form-control[readonly] {
+    background-color: white;
+}
+
+.form-control[disabled] {
+    background-color: #e9ecef;
+}
+
+.vs__search::placeholder,
+.vs__dropdown-toggle,
+.vs__dropdown-menu,
+.vs__selected {
+    color: #495057 !important;
+    font-size: .8125rem;
+    font-family: $font-family-poppins;
+    font-weight: 400;
+}

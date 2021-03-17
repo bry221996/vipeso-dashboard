@@ -1,0 +1,38 @@
+// Card adjustments
+.card {
+  -webkit-box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+  border-radius: .625rem;
+}
+
+// Block handles
+.card-header {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: $card-headings-font-weight;
+  }
+}
+
+.card-header {
+  border-top-left-radius: 0.625rem !important;
+  border-top-right-radius: 0.625rem !important;
+}
+
+.card-footer {
+  border-bottom-left-radius: 0.625rem !important;
+  border-bottom-right-radius: 0.625rem !important;
+}
+
+// Small "Full Report" cards element adjustments
+.card .view-report {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: $card-view-report-font-size;
+
+  a {
+    color: $card-view-report-link-color;
+
+    &:hover {
+      color: $card-view-report-link-color-hover;
+    }
+  }
+}

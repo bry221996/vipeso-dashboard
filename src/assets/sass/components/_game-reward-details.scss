@@ -1,0 +1,65 @@
+.game-reward-details {
+    padding: 0;
+
+    &__banner {
+        position: relative;
+        min-height: 8rem;
+        background-repeat: no-repeat;
+
+        @include to($breakpoint-sm) {
+            min-height: 6.5rem;
+        }
+    }
+
+    &__overlay {
+        background-color: rgba(10, 10, 10, .15);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        color: white;
+        position: absolute;
+        transform: translate(-50%, 50%);
+        left: 50%;
+    }
+
+    &__logo {
+        transform: translate(-50%, 50%);
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+
+        img {
+            border-radius: 1rem;
+            width: 5rem;
+            height: 5rem;
+            box-shadow: 0 0 0 0.125rem #fff, 0 0.1875rem 0.4375rem rgba(90,97,105,.5);
+        }
+    }
+
+    &__load {
+        margin: 4rem 1rem 1rem 1rem;
+    }
+
+    &__minimum {
+        border-radius: 0.5rem;
+        margin: 4rem 1rem 1rem 1rem;
+        padding: 0.5rem 0;
+        text-align: center;
+        background: black;
+        color: white;
+    }
+
+    &__mechanics {
+        margin: 0 0.5rem;
+
+        &__item {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

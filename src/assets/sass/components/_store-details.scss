@@ -1,0 +1,32 @@
+.store-details {
+  color: $fiord-blue;
+  
+  &__logo {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    max-width: 7.5rem;
+    -webkit-box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+    box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.store-analytics, .store-orders-overview, .store-coupons-overview {
+  span {
+    font-size: 11px;
+  }
+
+  .card-header {
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+  }
+
+  .card-footer {
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+  }
+}

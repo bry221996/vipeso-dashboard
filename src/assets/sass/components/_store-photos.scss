@@ -1,0 +1,25 @@
+.store-photos {
+  &__add {
+    border-radius: 1rem;
+    border: 1px solid $vipeso-blue;
+    color: $vipeso-blue;
+
+    &:hover {
+      background-color: $vipeso-blue;
+      color: white;
+      border: 1px solid $vipeso-blue;
+    }
+  }
+}
+
+.store-bussiHours {
+  color: $fiord-blue;
+}
+
+.add-store-modal {
+  &__location {
+    &__display {
+      height: 10rem;
+    }
+  }
+}

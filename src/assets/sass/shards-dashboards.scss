@@ -1,0 +1,78 @@
+/*
+ * Shards Dashboard Lite UI Kit v1.0.0
+ * Project URL: https://designrevision.com/downloads/shards-dashboard-lite
+ * Based on: Shards UI Kit v2.0.3 (https://designrevision.com/downloads/shards)
+ * Based on: Bootstrap v4.1.1 (https://getbootstrap.com)
+ * Copyright 2017-* DesignRevision (https://designrevision.com)
+ * Copyright 2017-* Catalin Vasile (contact@catalin.me)
+ * License: MIT
+ */
+
+
+/* --------- Overrides ---------- */
+
+@import "overrides";
+
+/* ------- Shards UI Kit -------- */
+
+@import "~shards-ui/src/scss/shards";
+
+/* ----------- Core ------------- */
+
+@import "variables";
+
+/* --------- Components --------- */
+
+@import "reboot";
+@import "buttons";
+@import "button-group";
+@import "navbar";
+@import "badge";
+@import "alert";
+@import "input-group";
+@import "custom-forms";
+@import "custom-sliders";
+@import "images";
+@import "icons";
+@import "dropdown";
+@import "card";
+@import "utilities";
+@import "date-range";
+
+/* ----------- Blocks ------------ */
+
+@import "blocks/main-navbar";
+@import "blocks/main-sidebar";
+@import "blocks/main-content";
+@import "blocks/main-footer";
+@import "blocks/page-header";
+
+/* ---------- Templates ----------- */
+
+@import "templates/common";
+@import "templates/blog-overview";
+@import "templates/blog-add-new-post";
+
+/* ----------- Plugins ------------ */
+
+@import "plugins/quill";
+
+/* ---------- Utilities ----------- */
+
+@import 'mixins/index';
+
+/* ---------- Components ---------- */
+
+@import "components/card-post";
+@import "components/data-table";
+@import "components/error";
+@import "components/auth-form";
+@import "components/game-reward-form";
+@import "components/game-reward-details";
+@import "components/review-modal";
+@import "components/loading-indicator";
+@import "components/store-photos";
+@import "components/store-details";
+@import "components/store-form";
+@import "components/time-picker";
+@import "components/image-upload";

@@ -1,0 +1,16 @@
+.auth-form {
+    .card-body {
+        overflow: hidden;
+
+        -webkit-box-shadow: inset 0 4px 0 0 var(--blue);
+        box-shadow: inset 0 4px 0 0 var(--blue);
+        border-radius: .625rem;
+    }
+
+    min-width: 19.375rem;
+    max-width: 350px;
+
+    &__logo {
+        max-width: 6.5rem;
+    }
+}
